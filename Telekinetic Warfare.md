@@ -1,7 +1,8 @@
 # Stego
 Đầu bài cho một file gif đầu tiên thấy dung lượn rất lớn chứng tỏ được hợp thành từ rất nhiều ảnh, sau khi dùng tool online quét được ảnh đầu tiên thì quét qr nhận được đoạn base64 decode ra phần đầu của header là header của pdf
 Sau đấy dùng kha kha tool không tách thành công thì dùng tool ffmpeg tách ra được khoảng 14k ảnh qr sau khi quét qua vài ảnh thì có thể thấy ghép lại sẽ ra được một file pdf
-** ffmpeg với -i là input
+
+* ffmpeg với -i là input
 ![image](https://user-images.githubusercontent.com/110059218/235676923-edf833ab-b11f-45ea-a348-14d17106e701.png)
 ![image](https://user-images.githubusercontent.com/110059218/235676968-51776d11-4f23-4213-b839-e84514202103.png)
 ** ảnh decode ảnh được tách đầu tiên
